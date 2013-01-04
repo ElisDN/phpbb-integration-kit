@@ -1,6 +1,16 @@
 <?php
+/**
+ * PhpBBFriendsWidget
+ *
+ * <pre>
+ * <?php $this->widget('phpbb.widgets.PhpBBFriendsWidget', array('user'=>$model); ?>
+ * </pre>
+ *
+ * @author ElisDN <mail@elisdn.ru>
+ * @link http://www.elisdn.ru
+ */
 
-class PhpBBFriendsWidget extends DWidget
+class PhpBBFriendsWidget extends CWidget
 {
     public $tpl = 'default';
     public $class = 'friends';
