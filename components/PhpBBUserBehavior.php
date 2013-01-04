@@ -49,7 +49,7 @@
  *                 'emailAttribute'=>'email',
  *                 'avatarAttribute'=>'avatar',
  *                 'avatarPath'=>'webroot.upload.images.avatars',
- *                 'forumDbConnection'=>'forumDb' // default
+ *                 'forumDbConnection'=>'forumDb', // default
  *                 'syncAttributes'=>array(
  *                     'site'=>'user_website',
  *                     'icq'=>'user_icq',
