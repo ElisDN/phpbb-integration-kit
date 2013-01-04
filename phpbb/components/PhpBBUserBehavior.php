@@ -104,14 +104,7 @@ class PhpBBUserBehavior extends CActiveRecordBehavior
      */
     public $syncAttributes = array();
 
-    protected $_oldEmail;
     protected $_isNew;
-
-    public function afterFind($event)
-    {
-        $model = $this->getOwner();
-        $this->_oldEmail = $model->{$this->emailAttribute};
-    }
 
     public function beforeSave($event)
     {
