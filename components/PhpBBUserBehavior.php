@@ -6,6 +6,12 @@
  *
  * <pre>
  * return array(
+ *
+ *     'modules'=>array(
+ *          // ...
+ *          'phpbb',
+ *     }
+ *
  *     'components'=>array(
  *         // ...
  *
