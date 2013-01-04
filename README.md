@@ -54,7 +54,7 @@ class bbuser extends session
 }
 ~~~
 
-And in `forum/common.php`
+Replace in `forum/common.php`
 
 ~~~
 [php]
