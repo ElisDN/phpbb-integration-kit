@@ -16,6 +16,7 @@ case 'register':
 
     header('location: /registration');
     exit();
+	break;
     
 case 'login':
 
