@@ -76,6 +76,8 @@ $user		= new bbuser();
 
 Remove input fields 'ICQ', 'AVATAR', etc. from forum templates `ucp_profile_profile_info.html` and `ucp_profile_avatar.html`. 
 
+**Note:** If you don't want modify your forum core files, you can move login/logout/register redirects to .htaccess. But if your application contains class User, you must use namespaces or rename your own class.
+
 Usage sample
 ------
 
