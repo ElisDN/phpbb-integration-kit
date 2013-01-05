@@ -104,13 +104,6 @@ class PhpBBUserBehavior extends CActiveRecordBehavior
      */
     public $syncAttributes = array();
 
-    protected $_isNew;
-
-    public function beforeSave($event)
-    {
-        $this->_isNew = $this->getOwner()->getIsNewRecord();
-    }
-
     public function afterSave($event)
     {
         $this->_updatePassword();
@@ -133,7 +126,7 @@ class PhpBBUserBehavior extends CActiveRecordBehavior
         {
             if (isset(Yii::app()->phpBB))
             {
-                if ($this->_isNew)
+                if ($model->getIsNewRecord())
                     Yii::app()->phpBB->userAdd($model->{$this->usernameAttribute}, $model->{$this->newPasswordAttribute}, $model->{$this->emailAttribute}, 2);
                 else
                     Yii::app()->phpBB->changePassword($model->{$this->usernameAttribute}, $model->{$this->newPasswordAttribute});
