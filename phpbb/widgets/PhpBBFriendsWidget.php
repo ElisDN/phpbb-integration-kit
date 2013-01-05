@@ -3,7 +3,7 @@
  * PhpBBFriendsWidget
  *
  * <pre>
- * <?php $this->widget('phpbb.widgets.PhpBBFriendsWidget', array('user'=>$model); ?>
+ * <?php $this->widget('phpbb.widgets.PhpBBFriendsWidget', array('user'=>$model)); ?>
  * </pre>
  *
  * @author ElisDN <mail@elisdn.ru>
