@@ -3,8 +3,8 @@ Yii PhpBB Integration Kit
 
 Synchronize Yii users with phpBB3 forum
 
-[README RUS](http://www.elisdn.ru/blog/32/podklyuchaem-forum-phpbb-k-yii)
-[Extension](http://www.yiiframework.com/extension/phpbb-integration-kit/)
+- [README RUS](http://www.elisdn.ru/blog/32/podklyuchaem-forum-phpbb-k-yii)
+- [Extension](http://www.yiiframework.com/extension/phpbb-integration-kit/)
 
 Before usage
 ------
