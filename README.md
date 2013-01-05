@@ -3,6 +3,9 @@ Yii PhpBB Integration Kit
 
 Synchronize Yii users with phpBB3 forum
 
+[README RUS](http://www.elisdn.ru/blog/32/podklyuchaem-forum-phpbb-k-yii)
+[Extension](http://www.yiiframework.com/extension/phpbb-integration-kit/)
+
 Before usage
 ------
 
@@ -16,19 +19,19 @@ case 'register':
 
     header('location: /registration');
     exit();
-	break;
+    break;
     
 case 'login':
 
     header('location: /login');
     exit();
-	break;
+    break;
 
 case 'logout':
 
     header('location: /logout');
     exit();
-	break;
+    break;
 ~~~
 
 Rename class `user` to `bbuser` in forum sources `forum/includes/session.php`:
