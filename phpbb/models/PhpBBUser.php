@@ -1,4 +1,9 @@
 <?php
+/**
+ * @author ElisDN <mail@elisdn.ru>
+ * @link http://www.elisdn.ru
+ * @version 1.0
+ */
 
 /**
  * This is the model class for table "phpbb_users".

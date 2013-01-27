@@ -26,6 +26,7 @@
  *
  * @author ElisDN <mail@elisdn.ru>
  * @link http://www.elisdn.ru
+ * @version 1.0
  */
 
 // The class extends your own WebUser class if it exists
