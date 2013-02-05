@@ -163,7 +163,7 @@ class PhpBBUserBehavior extends CActiveRecordBehavior
 
         $model = $this->getOwner();
 
-        $user = $user = $this->_loadBBUserModel($model->{$this->usernameAttribute});
+        $user = $this->_loadBBUserModel($model->{$this->usernameAttribute});
         if (!$user) return;
 
         if ($model->{$this->avatarAttribute})
