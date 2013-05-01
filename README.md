@@ -9,9 +9,9 @@ Synchronise Yii users with phpBB3 forum
 Before usage
 ------
 
-Disable profile activation in your forum. 
+Turn profile activation in your forum off. 
 
-Add redirects from forum to site in `forum/ucp.php`:
+Add redirects from a forum to the site in `forum/ucp.php`:
 
 ~~~
 [php]
@@ -34,7 +34,7 @@ case 'logout':
     break;
 ~~~
 
-Rename class `user` to `bbuser` in forum sources `forum/includes/session.php`:
+Rename the class `user` to `bbuser` in the forum file `forum/includes/session.php`:
 
 ~~~
 [php]
@@ -76,7 +76,7 @@ $user		= new bbuser();
 
 Remove input fields 'ICQ', 'AVATAR', etc. from forum templates `ucp_profile_profile_info.html` and `ucp_profile_avatar.html`. 
 
-**Note:** If you don't want modify your forum core files, you can move login/logout/register redirects to .htaccess. But if your application contains class User, you must use namespaces or rename your own class.
+**Note:** If you don't want to modify your forum core files, you can move login/logout/register redirects to .htaccess. But if your application contains class User, you must use namespaces or must rename your own class.
 
 Usage sample
 ------
