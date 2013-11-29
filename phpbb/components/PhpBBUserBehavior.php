@@ -168,7 +168,7 @@ class PhpBBUserBehavior extends CActiveRecordBehavior
 
         if ($model->{$this->avatarAttribute})
         {
-            $originalFile = $this->avatarPath . DIRECTORY_SEPARATOR . $model->{$this->avatarAttribute};
+            $originalFile = Yii::getPathOfAlias($this->avatarPath) . DIRECTORY_SEPARATOR . $model->{$this->avatarAttribute};
 
             $file = Yii::app()->file->set($originalFile);   /* @var $file CFile */
             $orig = Yii::app()->image->load($originalFile); /* @var $orig CImageHandler */
