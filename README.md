@@ -186,3 +186,10 @@ foreach ($model->phpBbUser->friends as $friend)
     echo $friend->user->name . ' ' . $friend->user->lastname . ' ' . $friend->age;
 }
 ~~~
+
+Changelog
+------
+
+Version 1.1
+
+\* Fixed avatarPath handling
